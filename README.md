@@ -13,4 +13,4 @@ The site is mobile responsive(I basically targeted mobile and desktop, sorry Ipa
 
 This site was deployed using Netlify and is live at https://quickselar-challenge.netlify.app/.
 
-####Peace.
+#### Peace.
