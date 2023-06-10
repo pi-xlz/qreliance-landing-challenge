@@ -1,0 +1,21 @@
+.all-tech {
+  margin-top: 2rem;
+}
+
+.subheading {
+  text-align: center;
+}
+
+.heading {
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.icon-container {
+  background: url('../assets/multi-device.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 8rem 4rem;
+}

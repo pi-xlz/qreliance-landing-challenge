@@ -1,0 +1,64 @@
+.footer {
+  margin-top: 3rem;
+  background: var(--section-bg);
+  padding: 2rem;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--cta);
+}
+
+.about {
+  margin-top: 0.25rem;
+  line-height: 1.1;
+  color: var(--heading-color);
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.wrapper {
+  margin-top: 1rem;
+}
+
+.heading {
+  color: var(--heading-color);
+}
+
+.links {
+  margin-top: 0.25rem;
+}
+
+.copy {
+  color: var(--heading-color);
+  margin-top: 2rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .logo-container {
+    width: 50%;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+
+  .about {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .container {
+    display: flex;
+    gap: 2.5rem;
+    width: 60%;
+  }
+
+  li {
+    margin-top: 1rem;
+  }
+}

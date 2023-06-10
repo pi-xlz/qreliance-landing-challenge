@@ -1,0 +1,68 @@
+/* css general/global styles */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--font-color);
+  overflow-x: hidden;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+svg {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+.main-content {
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.heading {
+  font-family: var(--heading);
+  color: var(--heading-color);
+  line-height: 1.1;
+  font-size: 1.5rem;
+}
+
+.subheading {
+  color: var(--cta);
+}
+
+.paragraph {
+  color: var(--font-color);
+  line-height: 1.15;
+}
+
+@media screen and (min-width: 900px) {
+  .subheading {
+    font-size: 1.25rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .paragraph {
+    line-height: 1.3;
+  }
+}
